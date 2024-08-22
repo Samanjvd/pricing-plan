@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  min-height: 100vh;
+}
+.container {
+  margin: 2rem;
+  padding: rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxs-plan {
+  display: flex;
+  padding: 1rem;
+}
+
+.box-basic,
+.box-proffesional,
+.box-custom {
+  padding: 1.5rem;
+  text-wrap: nowrap;
+}
+
+ul > li {
+  list-style-type: none;
+  display: flex;
+  gap: 0.2rem;
+}
+
+.price {
+  font-size: 3rem;
+  font-weight: bold;
+}
