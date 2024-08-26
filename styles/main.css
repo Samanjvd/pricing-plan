@@ -153,7 +153,7 @@ h3 {
 
 .button-custom:hover {
   color: #fff;
-  background-color: #ea80fc;
+  background: linear-gradient(to right, #732dff, #ff45c1);
 }
 
 .navigation {
